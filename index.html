@@ -3,269 +3,211 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ziyang Tan — Senior Software Developer</title>
-  <meta name="description" content="Ziyang Tan is a Senior Software Developer at JPMorgan Chase in San Francisco, building web and mobile experiences with React, React Native and Java.">
-  <meta property="og:title" content="Ziyang Tan — Senior Software Developer">
+  <title>Ziyang Tan — Software Developer</title>
+  <meta name="description" content="Ziyang Tan is a Senior Software Developer at JPMorgan Chase in San Francisco, crafting web & mobile experiences with React, React Native and Java.">
+  <meta property="og:title" content="Ziyang Tan — Software Developer">
   <meta property="og:description" content="Senior Software Developer @ JPMorgan Chase · React / React Native / Java · San Francisco Bay Area">
   <meta property="og:type" content="website">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231d4ed8'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>ZT</text></svg>">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%2306a8c2'/><text x='50' y='70' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>ZT</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css?v=2">
 </head>
 <body>
-  <header class="site-header">
+  <div class="bg-orbs" aria-hidden="true"><span class="orb orb-a"></span><span class="orb orb-b"></span><span class="orb orb-c"></span></div>
+
+  <header class="site-header" id="siteHeader">
     <nav class="nav" aria-label="Main navigation">
-      <a class="brand" href="#top"><span class="brand-mark">ZT</span><span class="brand-name">Ziyang Tan</span></a>
+      <a class="brand" href="#top"><span class="brand-mono">ZT_</span></a>
       <div class="nav-links">
+        <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#contact" class="nav-cta">Contact</a>
+        <a href="#contact" class="nav-cta">Say hello</a>
       </div>
     </nav>
   </header>
 
   <main id="top">
-    <!-- Hero -->
+    <!-- ============ HERO ============ -->
     <section class="hero">
-      <div class="hero-inner">
-        <div class="avatar avatar-monogram" role="img" aria-label="Ziyang Tan">ZT</div>
-        <p class="hero-kicker">Hello, I'm</p>
-        <h1>Ziyang Tan</h1>
-        <p class="hero-title">Senior Software Developer <span class="at">@ JPMorgan Chase</span></p>
-        <p class="hero-sub">I build fast, reliable web &amp; mobile experiences — from chase.com profile pages used by millions to React Native apps shipped to the App Store. Based in the San Francisco Bay Area.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">View my work</a>
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="kicker reveal"><span class="prompt">&gt;</span> hello world, I'm</p>
+        <h1 class="reveal d1">Ziyang Tan<span class="dot">.</span></h1>
+        <p class="hero-line reveal d2">I craft <span class="grad">web &amp; mobile</span> experiences.</p>
+        <p class="hero-sub reveal d3">Senior Software Developer at <strong>JPMorgan Chase</strong> in San Francisco — building chase.com's core profile pages used by millions, and shipping React Native apps to the App Store. Off the clock I build games, astrology tools &amp; other experiments.</p>
+        <div class="hero-actions reveal d4">
+          <a class="btn btn-primary" href="#work">View selected work</a>
           <a class="btn btn-ghost" href="#contact">Get in touch</a>
         </div>
-        <div class="social-row">
-          <a href="https://github.com/ziyang0621" aria-label="GitHub">
-            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        <div class="social-row reveal d5">
+          <a href="https://github.com/ziyang0621" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12v3.15c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a>
+          <a href="https://www.linkedin.com/in/ziyang-t-25557a65/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+          <a href="https://stackoverflow.com/users/4195406/ztan" target="_blank" rel="noopener" aria-label="Stack Overflow"><svg viewBox="0 0 24 24"><path d="M17.5 22v-6.9h2v9.4H2v-9.4h2V22h13.5zM7.1 16.4l8.9 1.9.4-1.9-8.9-1.9-.4 1.9zm.6-4.5l8.5 4 .8-1.8-8.5-4-.8 1.8zm1.9-4.7l7.6 6.1 1.2-1.5-7.6-6.1-1.2 1.5zM15.8 2l-1.6 1.2 5.7 7.7 1.6-1.2L15.8 2z"/></svg></a>
+          <a href="mailto:ziyang0621@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#work" aria-label="Scroll to work"><span></span></a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>React</span><i>✦</i><span>React Native</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Node.js</span><i>✦</i><span>Java</span><i>✦</i><span>Swift</span><i>✦</i><span>Objective-C</span><i>✦</i><span>SQL</span><i>✦</i><span>Redux</span><i>✦</i><span>Jest</span><i>✦</i><span>GraphQL</span><i>✦</i>
+        <span>React</span><i>✦</i><span>React Native</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Node.js</span><i>✦</i><span>Java</span><i>✦</i><span>Swift</span><i>✦</i><span>Objective-C</span><i>✦</i><span>SQL</span><i>✦</i><span>Redux</span><i>✦</i><span>Jest</span><i>✦</i><span>GraphQL</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work">
+      <div class="container">
+        <p class="sec-kicker reveal">01 · selected work</p>
+        <h2 class="sec-title reveal">Things I've <span class="grad">built &amp; shipped</span></h2>
+
+        <article class="feature reveal">
+          <a class="feature-media" href="https://muse.ai/s/space-xoxl5xjh7eo8hi" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="img/cover-brawl.jpg" alt="Grand Brawl Arena game artwork" loading="lazy">
           </a>
-          <a href="https://www.linkedin.com/in/ziyang-t-25557a65/" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          <div class="feature-body">
+            <p class="feature-index">01</p>
+            <h3>Grand Brawl Arena</h3>
+            <p>A browser party brawler in the spirit of classic arena fighters. 2–4 players join by room code over P2P, grab bombs, poison bottles and swords, and knock each other off the stage.</p>
+            <ul class="tags"><li>JavaScript</li><li>Canvas</li><li>WebRTC</li></ul>
+            <p class="feature-links"><a href="https://github.com/ziyang0621/grand-brawl-arena" target="_blank" rel="noopener">Code ↗</a><a href="https://muse.ai/s/space-xoxl5xjh7eo8hi" target="_blank" rel="noopener">Live demo ↗</a></p>
+          </div>
+        </article>
+
+        <article class="feature flip reveal">
+          <a class="feature-media" href="https://bazi-pan.netlify.app" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="img/cover-bazi.jpg" alt="Bazi Paipan Chinese astrology artwork" loading="lazy">
           </a>
-          <a href="https://stackoverflow.com/users/4195406/ztan" aria-label="Stack Overflow">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 22v-6.9h2.3V22c0 .8-.7 1.5-1.5 1.5H4.7c-.8 0-1.5-.7-1.5-1.5v-6.9h2.3V22h12zM6.2 14.9l1.1-2 8.7 4.6-1 2-8.8-4.6zm1.2-5.3l2-1.3 7.3 6.9-2 1.3-7.3-6.9zm3.2-5.2l2.2-.6 4.9 8.9-2.2.6-4.9-8.9zM18.4 1.6l-9.8 2.4 1 2.5 9.7-2.4-1-2.5z"/></svg>
+          <div class="feature-body">
+            <p class="feature-index">02</p>
+            <h3>Bazi Paipan · 八字排盘</h3>
+            <p>A single-page Chinese astrology chart tool — full BaZi chart, ten gods, hidden stems, luck pillars and a twelve-sign astrology tab. Runs entirely offline.</p>
+            <ul class="tags"><li>JavaScript</li><li>lunar-javascript</li></ul>
+            <p class="feature-links"><a href="https://github.com/ziyang0621/bazi-paipan" target="_blank" rel="noopener">Code ↗</a><a href="https://bazi-pan.netlify.app" target="_blank" rel="noopener">Live demo ↗</a></p>
+          </div>
+        </article>
+
+        <article class="feature reveal">
+          <a class="feature-media" href="https://github.com/ziyang0621/Crypto-Cap" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="img/cover-crypto.jpg" alt="Crypto-Cap price tracker artwork" loading="lazy">
           </a>
-          <a href="mailto:ziyang0621@gmail.com" aria-label="Email">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <div class="feature-body">
+            <p class="feature-index">03</p>
+            <h3>Crypto-Cap</h3>
+            <p>A React Native cryptocurrency price tracker with Redux state management — built with Expo and shipped to the App Store.</p>
+            <ul class="tags"><li>React Native</li><li>Redux</li><li>Expo</li></ul>
+            <p class="feature-links"><a href="https://github.com/ziyang0621/Crypto-Cap" target="_blank" rel="noopener">Code ↗</a></p>
+          </div>
+        </article>
+
+        <article class="feature flip reveal">
+          <a class="feature-media" href="https://github.com/ziyang0621/WeatherZ" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="img/cover-weatherz.jpg" alt="WeatherZ app artwork" loading="lazy">
+          </a>
+          <div class="feature-body">
+            <p class="feature-index">04</p>
+            <h3>WeatherZ</h3>
+            <p>An Android weather app reading the Forecast API, with location-based background imagery pulled from the Flickr API.</p>
+            <ul class="tags"><li>Java</li><li>Android</li></ul>
+            <p class="feature-links"><a href="https://github.com/ziyang0621/WeatherZ" target="_blank" rel="noopener">Code ↗</a></p>
+          </div>
+        </article>
+
+        <div class="more-grid">
+          <a class="more-card reveal" href="https://github.com/ziyang0621/Baygazine" target="_blank" rel="noopener">
+            <h3>Baygazine ↗</h3>
+            <p>Swift news reader — parses JSON with SwiftyJSON, renders custom article content, animates with CAAnimation.</p>
+            <ul class="tags"><li>Swift</li><li>iOS</li></ul>
+          </a>
+          <a class="more-card more-cta reveal" href="https://github.com/ziyang0621" target="_blank" rel="noopener">
+            <h3>Dozens more on GitHub →</h3>
+            <p>Experiments and open-source contributions across iOS, Android and the web.</p>
           </a>
         </div>
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="section">
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-dim" id="about">
       <div class="container">
-        <h2 class="section-title">About</h2>
+        <p class="sec-kicker reveal">02 · about</p>
+        <h2 class="sec-title reveal">A developer who <span class="grad">ships</span></h2>
         <div class="about-grid">
-          <div class="about-text">
+          <div class="about-text reveal">
             <p>I'm a Senior Software Developer at <strong>JPMorgan Chase</strong> in San Francisco, where I build the hybrid JavaScript experiences behind chase.com's core profile and account management — on both web and mobile. I also led a re-architecture of the legacy profile codebase to make it faster and easier to reuse.</p>
             <p>Before Chase, I spent 5 years shipping products across the stack: React dashboards and React Native kiosk apps at <strong>365 Retail Markets</strong>, developer support for Google's Maps / Cloud Messaging / Firebase at <strong>Accenture</strong>, and native iOS apps at <strong>Hathway Technology</strong>.</p>
-            <p>Outside work I build side projects for fun — games, astrology tools, crypto trackers — and I'm a <strong>Top 5% Stack Overflow contributor</strong> whose answers have reached 300,000+ developers.</p>
+            <p>Outside work I build side projects for fun — games, astrology tools, crypto trackers. I'm also a <strong>Top 5% Stack Overflow contributor</strong> whose answers have reached 300,000+ developers.</p>
+            <p class="edu">🎓 B.S. in Software Engineering, minor in Mathematics — California Polytechnic State University, San Luis Obispo</p>
           </div>
-          <ul class="fact-list">
-            <li><span>Location</span>San Francisco Bay Area</li>
-            <li><span>Focus</span>React · React Native · Java</li>
-            <li><span>Experience</span>13 years shipping software</li>
-            <li><span>Currently</span>Senior Software Developer, JPMorgan Chase</li>
-          </ul>
+          <div class="stat-col">
+            <div class="stat-card reveal"><p class="stat-num"><span data-count="13">0</span>+</p><p class="stat-label">years shipping software</p></div>
+            <div class="stat-card reveal"><p class="stat-num"><span data-count="300">0</span>K+</p><p class="stat-label">developers reached via Stack Overflow answers</p></div>
+            <div class="stat-card reveal"><p class="stat-num">Top 5%</p><p class="stat-label">Stack Overflow contributor · <a href="https://stackoverflow.com/users/4195406/ztan" target="_blank" rel="noopener">@ztan</a></p></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Experience -->
-    <section id="experience" class="section section-alt">
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
       <div class="container">
-        <h2 class="section-title">Experience</h2>
-        <ol class="timeline">
-          <li class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-head">
-                <h3>Senior Software Developer — JPMorgan Chase</h3>
-                <p class="timeline-meta">San Francisco, CA · Nov 2018 – Present</p>
-              </div>
-              <ul>
-                <li>Develop hybrid JavaScript pages for core profile and account management across web and mobile apps.</li>
-                <li>Re-architected the legacy profile codebase of chase.com, improving page performance and code reusability.</li>
-              </ul>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-head">
-                <h3>Software Developer — 365 Retail Markets</h3>
-                <p class="timeline-meta">Santa Clara, CA · Jan 2016 – Oct 2018</p>
-              </div>
-              <ul>
-                <li>Built a React web app helping warehouse operators manage inventory across multiple locations.</li>
-                <li>Built a React Native tablet app for food-service operators to deploy customized kiosks with multi-method payments.</li>
-                <li>Maintained and extended Java RESTful backend APIs serving multiple web and mobile applications.</li>
-              </ul>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-head">
-                <h3>Software Developer — Accenture</h3>
-                <p class="timeline-meta">San Francisco, CA · Aug 2014 – Jan 2016</p>
-              </div>
-              <ul>
-                <li>Provided coding-related support for Google products — Maps, Cloud Messaging, Firebase — and resolved API issues.</li>
-                <li>Contributed to open-source projects on GitHub and built multi-functional apps with those libraries.</li>
-              </ul>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-card">
-              <div class="timeline-head">
-                <h3>Mobile App Developer — Hathway Technology</h3>
-                <p class="timeline-meta">San Luis Obispo, CA · Jun 2013 – Aug 2014</p>
-              </div>
-              <ul>
-                <li>Developed an iOS business-management app: scheduling, appointment booking, client profiles, card/cash/check payments.</li>
-                <li>Developed an iOS receipt-keeper app: photo capture, cloud upload, and receipt history.</li>
-              </ul>
-            </div>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="section">
-      <div class="container">
-        <h2 class="section-title">Projects</h2>
-        <p class="section-lead">A few things I've built and shipped — more on <a href="https://github.com/ziyang0621">GitHub</a>.</p>
-        <div class="project-grid">
-          <article class="project-card">
-            <h3>Grand Brawl Arena</h3>
-            <p>Browser party brawler in the spirit of classic arena fighters: 2–4 players join by room code over P2P, pick up bombs, poison bottles and swords, and knock each other out of the arena.</p>
-            <div class="tags"><span>JavaScript</span><span>Canvas</span><span>WebRTC</span></div>
-            <div class="project-links">
-              <a href="https://github.com/ziyang0621/grand-brawl-arena">Code</a>
-              <a href="https://muse.ai/s/space-xoxl5xjh7eo8hi">Live demo</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <h3>Bazi Paipan · 八字排盘</h3>
-            <p>Single-page Chinese astrology chart tool: full BaZi chart, ten gods, hidden stems, luck pillars and a twelve-sign astrology tab — all offline-capable.</p>
-            <div class="tags"><span>JavaScript</span><span>lunar-javascript</span></div>
-            <div class="project-links">
-              <a href="https://github.com/ziyang0621/bazi-paipan">Code</a>
-              <a href="https://bazi-pan.netlify.app">Live demo</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <h3>Crypto-Cap</h3>
-            <p>React Native cryptocurrency price tracker with Redux state management, built with Expo and shipped to the App Store.</p>
-            <div class="tags"><span>React Native</span><span>Redux</span><span>Expo</span></div>
-            <div class="project-links">
-              <a href="https://github.com/ziyang0621/crypto-cap">Code</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <h3>Baygazine</h3>
-            <p>Swift news reader app: parses JSON with SwiftyJSON, renders custom article content, and animates elements with CAAnimation.</p>
-            <div class="tags"><span>Swift</span><span>iOS</span></div>
-            <div class="project-links">
-              <a href="https://github.com/ziyang0621/Baygazine">Code</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <h3>WeatherZ</h3>
-            <p>Android weather app reading the Forecast API, with location-based background imagery pulled from the Flickr API.</p>
-            <div class="tags"><span>Java</span><span>Android</span></div>
-            <div class="project-links">
-              <a href="https://github.com/ziyang0621/WeatherZ-Android">Code</a>
-            </div>
-          </article>
-          <article class="project-card project-card-more">
-            <h3>And more…</h3>
-            <p>Dozens of experiments and open-source contributions across iOS, Android and the web.</p>
-            <div class="project-links">
-              <a href="https://github.com/ziyang0621">Browse GitHub →</a>
-            </div>
-          </article>
+        <p class="sec-kicker reveal">03 · experience</p>
+        <h2 class="sec-title reveal">Where I've <span class="grad">worked</span></h2>
+        <div class="xp-list">
+          <div class="xp-row reveal">
+            <p class="xp-date">2018 — Present</p>
+            <div class="xp-main"><h3>Senior Software Developer · <span>JPMorgan Chase</span></h3><p>Hybrid JavaScript for chase.com's core profile &amp; account management across web and mobile; re-architected the legacy profile codebase for performance and reuse.</p></div>
+          </div>
+          <div class="xp-row reveal">
+            <p class="xp-date">2016 — 2018</p>
+            <div class="xp-main"><h3>Software Developer · <span>365 Retail Markets</span></h3><p>React web dashboards, React Native tablet kiosk apps with multi-method payments, and Java RESTful backends.</p></div>
+          </div>
+          <div class="xp-row reveal">
+            <p class="xp-date">2014 — 2016</p>
+            <div class="xp-main"><h3>Software Developer · <span>Accenture</span></h3><p>Developer support for Google Maps / Cloud Messaging / Firebase APIs; open-source contributions on GitHub.</p></div>
+          </div>
+          <div class="xp-row reveal">
+            <p class="xp-date">2013 — 2014</p>
+            <div class="xp-main"><h3>Mobile App Developer · <span>Hathway Technology</span></h3><p>Native iOS apps — business management with scheduling &amp; payments, and a receipt keeper with cloud sync.</p></div>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Skills -->
-    <section id="skills" class="section section-alt">
-      <div class="container">
-        <h2 class="section-title">Skills</h2>
+        <p class="sec-kicker reveal" style="margin-top:4rem">04 · arsenal</p>
+        <h2 class="sec-title reveal">Tools of the <span class="grad">trade</span></h2>
         <div class="skills-grid">
-          <div class="skill-group">
-            <h3>Languages</h3>
-            <div class="tags"><span>JavaScript</span><span>Java</span><span>Swift</span><span>Objective-C</span><span>SQL</span><span>C</span></div>
-          </div>
-          <div class="skill-group">
-            <h3>Frameworks &amp; Libraries</h3>
-            <div class="tags"><span>React</span><span>React Native</span><span>Node.js</span><span>Redux</span><span>Jest</span><span>GraphQL</span></div>
-          </div>
-          <div class="skill-group">
-            <h3>Tools</h3>
-            <div class="tags"><span>VS Code</span><span>IntelliJ</span><span>Xcode</span><span>Android Studio</span><span>Git</span></div>
-          </div>
-        </div>
-        <p class="so-badge">Top 5% Stack Overflow contributor — answers reached 300,000+ developers · <a href="https://stackoverflow.com/users/4195406/ztan">@ztan</a></p>
-      </div>
-    </section>
-
-    <!-- Education -->
-    <section id="education" class="section">
-      <div class="container">
-        <h2 class="section-title">Education</h2>
-        <div class="edu-list">
-          <div class="edu-item">
-            <h3>California Polytechnic State University, San Luis Obispo</h3>
-            <p>B.S. in Software Engineering, minor in Mathematics · 2009 – 2013</p>
-          </div>
-          <div class="edu-item">
-            <h3>CodePath iOS Swift Bootcamp</h3>
-            <p>Student developer · 2014</p>
-          </div>
-          <div class="edu-item">
-            <h3>Online programming certificates</h3>
-            <p>React/Redux · JavaScript ES6 · GraphQL · iOS Swift</p>
-          </div>
+          <div class="skill-card reveal"><p class="skill-head">Languages</p><ul class="tags"><li>JavaScript</li><li>Java</li><li>Swift</li><li>Objective-C</li><li>SQL</li><li>C</li></ul></div>
+          <div class="skill-card reveal"><p class="skill-head">Frameworks</p><ul class="tags"><li>React</li><li>React Native</li><li>Node.js</li><li>Redux</li><li>Jest</li><li>GraphQL</li></ul></div>
+          <div class="skill-card reveal"><p class="skill-head">Tools</p><ul class="tags"><li>VS Code</li><li>IntelliJ</li><li>Xcode</li><li>Android Studio</li><li>Git</li></ul></div>
         </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="section section-alt">
-      <div class="container contact-box">
-        <h2 class="section-title">Contact</h2>
-        <p class="section-lead">Have a question or an opportunity? My inbox is always open.</p>
-        <div class="contact-grid">
-          <a class="contact-card" href="mailto:ziyang0621@gmail.com">
-            <strong>Email</strong><span>ziyang0621@gmail.com</span>
-          </a>
-          <a class="contact-card" href="https://www.linkedin.com/in/ziyang-t-25557a65/">
-            <strong>LinkedIn</strong><span>linkedin.com/in/ziyang-t-25557a65</span>
-          </a>
-          <a class="contact-card" href="https://github.com/ziyang0621">
-            <strong>GitHub</strong><span>@ziyang0621</span>
-          </a>
-          <div class="contact-card">
-            <strong>Phone</strong><span>(415) 786-1496 <em>· urgent only</em></span>
-          </div>
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner">
+        <p class="sec-kicker reveal">05 · contact</p>
+        <h2 class="contact-title reveal">Let's build something <span class="grad">great</span> together.</h2>
+        <p class="contact-sub reveal">Have a question, an opportunity, or just want to say hi? My inbox is always open.</p>
+        <div class="reveal"><a class="btn btn-primary btn-lg" href="mailto:ziyang0621@gmail.com">ziyang0621@gmail.com</a></div>
+        <div class="contact-links reveal">
+          <a href="https://www.linkedin.com/in/ziyang-t-25557a65/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/ziyang0621" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://stackoverflow.com/users/4195406/ztan" target="_blank" rel="noopener">Stack Overflow ↗</a>
         </div>
+        <p class="contact-phone reveal">📞 (415) 786-1496 <span>· urgent only</span></p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© 2026 Ziyang Tan · Built with HTML &amp; CSS · San Francisco Bay Area</p>
+    <p>© 2026 Ziyang Tan · Designed &amp; built with HTML, CSS &amp; JS · San Francisco Bay Area</p>
   </footer>
+
+  <script src="js/main.js?v=2"></script>
 </body>
 </html>
