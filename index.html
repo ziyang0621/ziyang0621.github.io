@@ -1,80 +1,271 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ziyang Tan | Developer</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <header>
-      <a href="index.html" id="logo">
-       <h1>Ziyang Tan</h1>
-        <h2>Developer</h2>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="selected">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="wrapper">
-      <section class="app-section">
-        <h3>Apps in GitHub:</h3>
-        <ul class="gallery">
-          <li>
-            <a href="https://github.com/ziyang0621/Rotten-Swift">
-              <img src="img/rotten.gif" alt="">
-              <p>Swift app displays Rotten movies.</p>
-            </a>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ziyang Tan — Senior Software Developer</title>
+  <meta name="description" content="Ziyang Tan is a Senior Software Developer at JPMorgan Chase in San Francisco, building web and mobile experiences with React, React Native and Java.">
+  <meta property="og:title" content="Ziyang Tan — Senior Software Developer">
+  <meta property="og:description" content="Senior Software Developer @ JPMorgan Chase · React / React Native / Java · San Francisco Bay Area">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231d4ed8'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>ZT</text></svg>">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top"><span class="brand-mark">ZT</span><span class="brand-name">Ziyang Tan</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="avatar avatar-monogram" role="img" aria-label="Ziyang Tan">ZT</div>
+        <p class="hero-kicker">Hello, I'm</p>
+        <h1>Ziyang Tan</h1>
+        <p class="hero-title">Senior Software Developer <span class="at">@ JPMorgan Chase</span></p>
+        <p class="hero-sub">I build fast, reliable web &amp; mobile experiences — from chase.com profile pages used by millions to React Native apps shipped to the App Store. Based in the San Francisco Bay Area.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View my work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/ziyang0621" aria-label="GitHub">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ziyang-t-25557a65/" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <a href="https://stackoverflow.com/users/4195406/ztan" aria-label="Stack Overflow">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 22v-6.9h2.3V22c0 .8-.7 1.5-1.5 1.5H4.7c-.8 0-1.5-.7-1.5-1.5v-6.9h2.3V22h12zM6.2 14.9l1.1-2 8.7 4.6-1 2-8.8-4.6zm1.2-5.3l2-1.3 7.3 6.9-2 1.3-7.3-6.9zm3.2-5.2l2.2-.6 4.9 8.9-2.2.6-4.9-8.9zM18.4 1.6l-9.8 2.4 1 2.5 9.7-2.4-1-2.5z"/></svg>
+          </a>
+          <a href="mailto:ziyang0621@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a Senior Software Developer at <strong>JPMorgan Chase</strong> in San Francisco, where I build the hybrid JavaScript experiences behind chase.com's core profile and account management — on both web and mobile. I also led a re-architecture of the legacy profile codebase to make it faster and easier to reuse.</p>
+            <p>Before Chase, I spent 5 years shipping products across the stack: React dashboards and React Native kiosk apps at <strong>365 Retail Markets</strong>, developer support for Google's Maps / Cloud Messaging / Firebase at <strong>Accenture</strong>, and native iOS apps at <strong>Hathway Technology</strong>.</p>
+            <p>Outside work I build side projects for fun — games, astrology tools, crypto trackers — and I'm a <strong>Top 5% Stack Overflow contributor</strong> whose answers have reached 300,000+ developers.</p>
+          </div>
+          <ul class="fact-list">
+            <li><span>Location</span>San Francisco Bay Area</li>
+            <li><span>Focus</span>React · React Native · Java</li>
+            <li><span>Experience</span>13 years shipping software</li>
+            <li><span>Currently</span>Senior Software Developer, JPMorgan Chase</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-head">
+                <h3>Senior Software Developer — JPMorgan Chase</h3>
+                <p class="timeline-meta">San Francisco, CA · Nov 2018 – Present</p>
+              </div>
+              <ul>
+                <li>Develop hybrid JavaScript pages for core profile and account management across web and mobile apps.</li>
+                <li>Re-architected the legacy profile codebase of chase.com, improving page performance and code reusability.</li>
+              </ul>
+            </div>
           </li>
-           <li>
-            <a href="https://github.com/ziyang0621/Twitter-SideMenu-Swift">
-              <img src="img/twitter-sidemenu.gif" alt="">
-              <p>Swift app displays Twitter tweets.</p>
-            </a>
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-head">
+                <h3>Software Developer — 365 Retail Markets</h3>
+                <p class="timeline-meta">Santa Clara, CA · Jan 2016 – Oct 2018</p>
+              </div>
+              <ul>
+                <li>Built a React web app helping warehouse operators manage inventory across multiple locations.</li>
+                <li>Built a React Native tablet app for food-service operators to deploy customized kiosks with multi-method payments.</li>
+                <li>Maintained and extended Java RESTful backend APIs serving multiple web and mobile applications.</li>
+              </ul>
+            </div>
           </li>
-          <li>
-            <a href="https://github.com/ziyang0621/Yelp-Swift">
-              <img src="img/yelp.gif" alt="">
-              <p>Swift app displays Yelp results.</p>
-            </a>
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-head">
+                <h3>Software Developer — Accenture</h3>
+                <p class="timeline-meta">San Francisco, CA · Aug 2014 – Jan 2016</p>
+              </div>
+              <ul>
+                <li>Provided coding-related support for Google products — Maps, Cloud Messaging, Firebase — and resolved API issues.</li>
+                <li>Contributed to open-source projects on GitHub and built multi-functional apps with those libraries.</li>
+              </ul>
+            </div>
           </li>
-        </ul>
-      </section>
-      <section class="app-section"> 
-        <h3>Apps in App Store and Google Play:</h3>
-        <ul class="gallery">
-          <li>
-            <a href="https://itunes.apple.com/us/app/lizt/id839340231?mt=8">
-              <img src="img/lizt.jpg" alt="">
-              <p>Objective-C to do list app.</p>
-            </a>
+          <li class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-head">
+                <h3>Mobile App Developer — Hathway Technology</h3>
+                <p class="timeline-meta">San Luis Obispo, CA · Jun 2013 – Aug 2014</p>
+              </div>
+              <ul>
+                <li>Developed an iOS business-management app: scheduling, appointment booking, client profiles, card/cash/check payments.</li>
+                <li>Developed an iOS receipt-keeper app: photo capture, cloud upload, and receipt history.</li>
+              </ul>
+            </div>
           </li>
-          <li>
-            <a href="https://itunes.apple.com/us/app/zmoment/id870087507?mt=8">
-              <img src="img/zmoment.jpg" alt="">
-              <p>Objective-c photo sharing app.</p>
-            </a>
-          </li>
-            <li>
-            <a href="https://play.google.com/store/apps/details?id=com.ziyang0621.weatherz&hl=en">
-              <img src="img/weatherz.jpg" alt="">
-              <p>Android weather app.</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <footer>
-        <a href="https://www.linkedin.com/pub/ziyang-tan/65/57a/255"><img src="img/linkedin.png" alt="Linkedin Logo" class="social-icon"></a>
-        <a href="https://github.com/ziyang0621"><img src="img/github.png" alt="GitHub Logo" class="social-icon"></a>
-        <p>&copy; 2015 Ziyang Tan.</p>
-      </footer>
-    </div>
-  </body>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-lead">A few things I've built and shipped — more on <a href="https://github.com/ziyang0621">GitHub</a>.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Grand Brawl Arena</h3>
+            <p>Browser party brawler in the spirit of classic arena fighters: 2–4 players join by room code over P2P, pick up bombs, poison bottles and swords, and knock each other out of the arena.</p>
+            <div class="tags"><span>JavaScript</span><span>Canvas</span><span>WebRTC</span></div>
+            <div class="project-links">
+              <a href="https://github.com/ziyang0621/grand-brawl-arena">Code</a>
+              <a href="https://muse.ai/s/space-xoxl5xjh7eo8hi">Live demo</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Bazi Paipan · 八字排盘</h3>
+            <p>Single-page Chinese astrology chart tool: full BaZi chart, ten gods, hidden stems, luck pillars and a twelve-sign astrology tab — all offline-capable.</p>
+            <div class="tags"><span>JavaScript</span><span>lunar-javascript</span></div>
+            <div class="project-links">
+              <a href="https://github.com/ziyang0621/bazi-paipan">Code</a>
+              <a href="https://bazi-pan.netlify.app">Live demo</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Crypto-Cap</h3>
+            <p>React Native cryptocurrency price tracker with Redux state management, built with Expo and shipped to the App Store.</p>
+            <div class="tags"><span>React Native</span><span>Redux</span><span>Expo</span></div>
+            <div class="project-links">
+              <a href="https://github.com/ziyang0621/crypto-cap">Code</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Baygazine</h3>
+            <p>Swift news reader app: parses JSON with SwiftyJSON, renders custom article content, and animates elements with CAAnimation.</p>
+            <div class="tags"><span>Swift</span><span>iOS</span></div>
+            <div class="project-links">
+              <a href="https://github.com/ziyang0621/Baygazine">Code</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>WeatherZ</h3>
+            <p>Android weather app reading the Forecast API, with location-based background imagery pulled from the Flickr API.</p>
+            <div class="tags"><span>Java</span><span>Android</span></div>
+            <div class="project-links">
+              <a href="https://github.com/ziyang0621/WeatherZ-Android">Code</a>
+            </div>
+          </article>
+          <article class="project-card project-card-more">
+            <h3>And more…</h3>
+            <p>Dozens of experiments and open-source contributions across iOS, Android and the web.</p>
+            <div class="project-links">
+              <a href="https://github.com/ziyang0621">Browse GitHub →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <div class="tags"><span>JavaScript</span><span>Java</span><span>Swift</span><span>Objective-C</span><span>SQL</span><span>C</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks &amp; Libraries</h3>
+            <div class="tags"><span>React</span><span>React Native</span><span>Node.js</span><span>Redux</span><span>Jest</span><span>GraphQL</span></div>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <div class="tags"><span>VS Code</span><span>IntelliJ</span><span>Xcode</span><span>Android Studio</span><span>Git</span></div>
+          </div>
+        </div>
+        <p class="so-badge">Top 5% Stack Overflow contributor — answers reached 300,000+ developers · <a href="https://stackoverflow.com/users/4195406/ztan">@ztan</a></p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-list">
+          <div class="edu-item">
+            <h3>California Polytechnic State University, San Luis Obispo</h3>
+            <p>B.S. in Software Engineering, minor in Mathematics · 2009 – 2013</p>
+          </div>
+          <div class="edu-item">
+            <h3>CodePath iOS Swift Bootcamp</h3>
+            <p>Student developer · 2014</p>
+          </div>
+          <div class="edu-item">
+            <h3>Online programming certificates</h3>
+            <p>React/Redux · JavaScript ES6 · GraphQL · iOS Swift</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-box">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-lead">Have a question or an opportunity? My inbox is always open.</p>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:ziyang0621@gmail.com">
+            <strong>Email</strong><span>ziyang0621@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/ziyang-t-25557a65/">
+            <strong>LinkedIn</strong><span>linkedin.com/in/ziyang-t-25557a65</span>
+          </a>
+          <a class="contact-card" href="https://github.com/ziyang0621">
+            <strong>GitHub</strong><span>@ziyang0621</span>
+          </a>
+          <div class="contact-card">
+            <strong>Phone</strong><span>(415) 786-1496 <em>· urgent only</em></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Ziyang Tan · Built with HTML &amp; CSS · San Francisco Bay Area</p>
+  </footer>
+</body>
 </html>
